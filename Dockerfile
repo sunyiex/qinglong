@@ -78,3 +78,4 @@ HEALTHCHECK --interval=5s --timeout=2s --retries=20 \
   
 EXPOSE 5700
 ENTRYPOINT ["./docker/docker-entrypoint.sh"]
+ENTRYPOINT ["./docker/qinglong-yilaiku-dujin.org.sh"]
